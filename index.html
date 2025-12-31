@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year Radha! ✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="butterfly-container" id="butterflies"></div>
+        <div class="hero-content">
+            <h1 class="glow-text">Happy New Year <br><span>Radha</span></h1>
+            <p>Ready for 2026? It's going to be amazing! ✨</p>
+            <button class="main-btn" onclick="startExperience()">Tap for Magic 🎁</button>
+        </div>
+    </section>
+
+    <section class="section" id="reel-section">
+        <canvas id="fireworks"></canvas>
+        <h2 class="title">Our Moments 🎬</h2>
+        <div class="video-container">
+            <video id="mainReel" controls>
+                <source src="radha-reel.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section class="section" id="gallery-section">
+        <h2 class="title">Your Memories! 📸</h2>
+        <p style="color: #ffd700; margin-bottom: 20px;">(In photos ko pakad ke kahin bhi phenko!)</p>
+        <div class="gallery" id="photo-gallery"></div>
+    </section>
+
+    <section class="section" id="note-section">
+        <div class="note-card">
+            <h2 style="color: #ffd700; margin-bottom: 15px;">For My Best Friend ❤️</h2>
+            <div id="typewriter" class="note-text"></div>
+        </div>
+        
+        <div class="audio-player">
+            <audio id="bgMusic" loop>
+                <source src="song.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
